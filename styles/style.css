@@ -3,16 +3,17 @@ html {
 }
 
 body {
-    font-family: 'Ultra', serif;
+    font-family: 'Alata', sans-serif;
     width: 100%;
     margin: 0 auto;
     font-weight: 400;
-    background-color: rgb(114, 143, 114);
+    background-color: rgb(14, 13, 24);
 }
 
 header {
     margin: auto;
     padding-top: 33px;
+    min-width: 1400px;
     background-image: url('../resources/photo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,14 +77,15 @@ header {
     color: rgb(22, 22, 21);
 }
 
-.main-part {
-    width: 1150px;
+.projects,
+.competencies,
+.services {
+    width: 1155px;
     margin: 0 auto;
 }
 
-
-
-.portfolio h2 {
+.projects h2,
+.competencies h2 {
     padding-top: 150px;
     margin-bottom: 40px;
     font-size: 55px;
@@ -92,26 +94,20 @@ header {
 }
 
 .project {
-
-    width: 1155px;
+    width: 1200px;
     position: relative;
 }
-
 
 .portfolio-link {
     position: relative;
     display: block;
     height: 550px;
-    transform: perspective(1px) translateZ(0);
-    transition-duration: 0.3s;
-    transition-property: transform;
-
 }
 
 .project-head {
     position: absolute;
-    top: 320px;
-    left: 20px;
+    top: 430px;
+    left: 30px;
     font-size: 25px;
     line-height: 20px;
     color: #FFFFFF;
@@ -119,21 +115,87 @@ header {
 
 .text-project {
     position: absolute;
-    top: 350px;
-    left: 20px;
-    font-size: 15px;
-    line-height: 20px;
+    top: 470px;
+    left: 30px;
+    font-size: 19px;
+    line-height: 30px;
     color: #FFFFFF;
 }
 
-.project-head:hover{
-    color:#db1e1e ;
-}
-.text-project:hover {
-    color:#db1e1e ;
-}
-
-
 .project-img {
     border-radius: 30px;
+}
+
+.projects__btn {
+    margin-top: 80px;
+    display: block;
+    width: 580px;
+    height: 150px;
+    line-height: 150px;
+    font-size: 30px;
+    background-color: #67c44b;
+    transition: 1s;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.projects__btn:hover {
+    color: #de2121;
+    background: #ffffff;
+}
+
+.competence {
+    margin-bottom: 60px;
+}
+
+.competence:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.competence__title {
+    margin-bottom: 15px;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+}
+
+.competence__title:before {
+    content: '';
+    display: block;
+    margin-bottom: 12px;
+    width: 45px;
+    height: 44px;
+    background-image: url('../resources/html.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.competence p {
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.services h2 {
+    margin-bottom: 74px;
+    width: 403px;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+
+.service__title {
+    margin-bottom: 15px;
+    font-size: 55px;
+    line-height: 72px;
+    color: #1BFF07;
+}
+
+.service__description {
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
 }
