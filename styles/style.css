@@ -13,7 +13,7 @@ body {
 header {
     margin: auto;
     padding-top: 33px;
-    background-image: url('../resources/photo.jpg');
+    background-image: url('./resources/photo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60% 20%;
