@@ -1,0 +1,139 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ultra', serif;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 400;
+    background-color: rgb(114, 143, 114);
+}
+
+header {
+    margin: auto;
+    padding-top: 33px;
+    background-image: url('/resources/photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 20%;
+    height: 765px;
+}
+
+.nav-section {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.logo-link {
+    width: 130px;
+    height: 39px;
+    left: 123px;
+    top: 36px;
+    font-size: 33px;
+    line-height: 30px;
+    text-decoration: none;
+    color: rgb(229, 25, 14);
+}
+
+.logo-link:hover {
+    color: #FFFFFF;
+    transition-duration: 1s;
+}
+
+.nav {
+    float: right;
+    vertical-align: top;
+}
+
+.nav-link {
+    margin-right: 50px;
+    font-size: 24px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav-link:hover {
+    color: rgb(255, 1, 1);
+    transition-duration: 1s;
+}
+
+.nav-link:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.text-about-me {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.text-about-me h1 {
+    margin-top: 80px;
+    width: 300px;
+    font-size: 25px;
+    line-height: 70px;
+    color: rgb(22, 22, 21);
+}
+
+.main-part {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+
+.portfolio h2 {
+    padding-top: 150px;
+    margin-bottom: 40px;
+    font-size: 55px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.project {
+
+    width: 1155px;
+    position: relative;
+}
+
+
+.portfolio-link {
+    position: relative;
+    display: block;
+    height: 550px;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+    transition-property: transform;
+
+}
+
+.project-head {
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    font-size: 25px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.text-project {
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.project-head:hover{
+    color:#db1e1e ;
+}
+.text-project:hover {
+    color:#db1e1e ;
+}
+
+
+.project-img {
+    border-radius: 30px;
+}
