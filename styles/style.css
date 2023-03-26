@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     font-weight: 400;
     background-color: rgb(14, 13, 24);
-    letter-spacing: -0.03em;
+
 }
 
 header {
@@ -82,7 +82,7 @@ header {
 .competencies,
 .services {
     padding-top: 150px;
-    width: 1155px;
+    width: 1150px;
     margin: 0 auto;
 }
 
@@ -95,43 +95,42 @@ header {
 }
 
 .project {
-    width: 1200px;
+    height: 550px;
     position: relative;
+    background-image: url('../resources/metrika.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .project-link {
-    position: relative;
     display: block;
     height: 550px;
 }
 
 .project-head {
     position: absolute;
-    top: 430px;
+    top: 400px;
     left: 30px;
-    font-size: 25px;
+    font-size: 35px;
     line-height: 20px;
-    color: #FFFFFF;
+    color: #ef1111;
 }
 
 .text-project {
     position: absolute;
-    top: 470px;
+    top: 440px;
     left: 30px;
-    font-size: 19px;
+    font-size: 25px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ef1111;
 }
 
-.project-img {
-    border-radius: 30px;
-}
-
-.project-img:hover {
+.project-link:hover {
     transform: scale(1.2);
-    transition-duration: 1s;
+    transition-duration: 1.5s;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(124, 90, 63, 0.315) 100%);
 }
-
 
 .projects__btn {
     margin-top: 80px;
