@@ -276,13 +276,18 @@ section {
 }
 
 .connection {
+    width: 100%;
+    background-color: #191C19;
+    border-radius: 30px;
+}
+
+.connections {
     margin: 150px 0;
     height: 717px;
-    background-color: #191C19;
     background-image: url('../resources/programmer.png');
     background-repeat: no-repeat;
     background-position: right;
-    border-radius: 30px;
+
 }
 
 .connection__wrapper {
@@ -321,7 +326,7 @@ section {
 
 footer {
     margin: 0 auto;
-    width: 1150px;
+    width: 100%;
     border-radius: 30px 30px 0 0;
     background-color: #fff;
 }
