@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: 'Alata', sans-serif;
-    width: 100%;
+    min-width: 1400px;
     margin: 0 auto;
     font-weight: 400;
     background-color: rgb(14, 13, 24);
