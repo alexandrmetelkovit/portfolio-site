@@ -78,6 +78,12 @@ header {
     color: rgb(22, 22, 21);
 }
 
+section {
+    margin: 0 auto;
+    width: 1400px;
+    padding-left: 125px;
+}
+
 .projects,
 .competencies,
 .services {
