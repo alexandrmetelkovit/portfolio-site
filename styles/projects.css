@@ -1,0 +1,72 @@
+.projects__inner {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.projects__list {
+    margin-bottom: 80px;
+}
+
+.project-metrika {
+  position: relative;
+  max-width: 1150px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url("../resources/metrika.jpg");
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.project-link {
+  display: block;
+  height: 550px;
+}
+
+.project-link:hover {
+    box-shadow: 0px 0px 25px rgb(16, 27, 89);
+    transition: .8s;
+}
+
+.project-head {
+  position: absolute;
+  top: 400px;
+  left: 30px;
+  font-size: 35px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  color: rgb(255, 255, 255);
+}
+
+.project-text {
+  position: absolute;
+  top: 440px;
+  left: 30px;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.projects__btn {
+  display: block;
+  width: 580px;
+  height: 150px;
+  line-height: 150px;
+  font-size: 30px;
+  background-color: #67c44b;
+  transition: 1s;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.projects__btn:hover {
+    color: rgb(47, 35, 218);
+  background: #cfe1d4;
+  transform: .5s;
+}

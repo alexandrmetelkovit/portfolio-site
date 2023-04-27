@@ -2,130 +2,123 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Портфолио Метельков</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#ffffff" />
 
-    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/reset.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet" />
 
-
-
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/about-me.css">
-
-
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/subtitle.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="stylesheet" href="styles/competencies.css" />
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container">
             <div class="header__nav-inner">
-                <a class="logo-link" href="#">
-                    amIT
-                </a>
+                <a class="logo-link" href="#"> amIT </a>
                 <ul class="header__nav-links">
-                    <li><a class="nav-link" href="#projects">портфолио</a></li>
-                    <li><a class="nav-link" href="#competencies">компетенции</a></li>
-                    <li><a class="nav-link" href="#services">услуги</a></li>
-                    <li><a class="nav-link" href="#connection">контакты</a></li>
+                    <li><a class="nav-link" href="#projects">portfolio</a></li>
+                    <li><a class="nav-link" href="#competencies">competencies</a></li>
+                    <li><a class="nav-link" href="#services">services</a></li>
+                    <li><a class="nav-link" href="#connection">contacts</a></li>
                 </ul>
             </div>
-        </div>
-    </header>
-    <main>
-        <div class="text-about-me">
-            <h1>
-                Hi I'm Alex - I'm a front-end developer and website designer
+            <h1 class="title">
+                <a class="title__link"
+                    href="https://sch2072v.mskobr.ru/teacher-card/metelkov-aleksandr-albertovich-1646806265"
+                    target="_blank">Alexandr Metelkov</a>
+                <br /><span class="title__span">I'm a front-end developer <br />
+                    and website designer</span>
             </h1>
         </div>
+    </header>
+    <main class="main">
         <section id="projects">
-            <div class="projects">
-                <h2>Самые свежие проекты</h2>
-                <ul class="projects__list">
-                    <li class="project">
-                        <a class="project-link" href="https://alexandrmetelkovit.github.io/metrika-site/"
-                            target="_blank">
-                            <p class="project-head">
-                                Метрика
-                            </p>
-                            <p class="text-project">
-                                дизайн, вёрстка, настройка
-                            </p>
-                        </a>
-                    </li>
-                    <li class="project">
-                        <a class="project-link" href="https://alexandrmetelkovit.github.io/metrika-site/"
-                            target="_blank">
-                            <p class="project-head">
-                                Метрика
-                            </p>
-                            <p class="text-project">
-                                дизайн, вёрстка, настройка
-                            </p>
-                        </a>
-                    </li>
-                    <li class="project">
-                        <a class="project-link" href="https://alexandrmetelkovit.github.io/metrika-site/"
-                            target="_blank">
-                            <p class="project-head">
-                                Метрика
-                            </p>
-                            <p class="text-project">
-                                дизайн, вёрстка, настройка
-                            </p>
-                        </a>
-                    </li>
-                    <a class="projects__btn" href="#">Смотреть все проекты</a>
-                </ul>
+            <div class="container">
+                <div class="projects__inner">
+                    <h2 class="subtitle-text">Самые свежие проекты</h2>
+                    <ul class="projects__list">
+                        <li class="project-metrika">
+                            <a class="project-link" href="https://alexandrmetelkovit.github.io/metrika-site/"
+                                target="_blank">
+                                <p class="project-head">Метрика</p>
+                                <p class="project-text">дизайн, вёрстка, настройка</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="projects__btn" href="https://github.com/alexandrmetelkovit?tab=repositories"
+                        target="_blank">Смотреть все проекты</a>
+                </div>
             </div>
         </section>
-
         <section id="competencies">
-            <div class="competencies">
-                <h2>Мои компетенции</h2>
-                <ul class="competencies__list">
-                    <li class="competence">
-                        <h3 class="competence__title-html">HTML и CSS</h3>
-                        <p>это основа фронтенд разработки. Умение создавать и правильно структурировать HTML-документы,
-                            а
-                            также применять стили к этим документам на CSS, является обязательным навыком для каждого
-                            фронтенд разработчика.</p>
-                    </li>
-                    <li class="competence">
-                        <h3 class="competence__title-js">JavaScript</h3>
-                        <p>это язык программирования, который используется для создания динамического и интерактивного
-                            пользовательского интерфейса. Хороший фронтенд разработчик должен быть знаком с основами
-                            JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией данными на
-                            стороне клиента.</p>
-                    </li>
-                    <li class="competence">
-                        <h3 class="competence__title-framework">Работа с библиотеками и фреймворкамиt</h3>
-                        <p>фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими
-                            как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под
-                            нужды проекта и расширять их функциональность, является очень важным навыком.</p>
-                    </li>
-                    <li class="competence">
-                        <h3 class="competence__title-mobile">Разработка для мобильных устройств и адаптивная верстка
-                        </h3>
-                        <p>фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими
-                            как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под
-                            нужды проекта и расширять их функциональность, является очень важным навыком.</p>
-                    </li>
-                </ul>
+            <div class="container">
+                <div class="competencies__inner">
+                    <h2 class="subtitle-text">Мои компетенции</h2>
+                    <ul class="competencies__list">
+                        <li class="competence">
+                            <h3 class="competence__title-html">HTML и CSS</h3>
+                            <p>
+                                это основа фронтенд разработки. Умение создавать и правильно
+                                структурировать HTML-документы, а также применять стили к этим
+                                документам на CSS, является обязательным навыком для каждого
+                                фронтенд разработчика.
+                            </p>
+                        </li>
+                        <li class="competence">
+                            <h3 class="competence__title-js">JavaScript</h3>
+                            <p>
+                                это язык программирования, который используется для создания
+                                динамического и интерактивного пользовательского интерфейса.
+                                Хороший фронтенд разработчик должен быть знаком с основами
+                                JavaScript, включая работу с DOM-деревом, асинхронными
+                                запросами и манипуляцией данными на стороне клиента.
+                            </p>
+                        </li>
+                        <li class="competence">
+                            <h3 class="competence__title-framework">
+                                Работа с библиотеками и фреймворкамиt
+                            </h3>
+                            <p>
+                                фронтенд разработчики должны быть знакомы с различными
+                                библиотеками и фреймворками, такими как React, Angular, Vue и
+                                другими. Умение использовать готовые решения, адаптировать их
+                                под нужды проекта и расширять их функциональность, является
+                                очень важным навыком.
+                            </p>
+                        </li>
+                        <li class="competence">
+                            <h3 class="competence__title-mobile">
+                                Разработка для мобильных устройств и адаптивная верстка
+                            </h3>
+                            <p>
+                                фронтенд разработчики должны быть знакомы с различными
+                                библиотеками и фреймворками, такими как React, Angular, Vue и
+                                другими. Умение использовать готовые решения, адаптировать их
+                                под нужды проекта и расширять их функциональность, является
+                                очень важным навыком.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section id="services">
@@ -133,31 +126,38 @@
                 <h2>Помогаю реализовать широкий спектр задач</h2>
                 <ul class="services__list">
                     <li class="service">
-                        <img class="service__image" src="resources/service_key.png" alt="Разработка сайта под ключ">
+                        <img class="service__image" src="resources/service_key.png" alt="Разработка сайта под ключ" />
                         <div class="service__text-wrapper">
                             <p class="service__title">Разработка сайта под ключ</p>
-                            <p class="service__description">Это создание дизайн веб-сайтов, созданный для удобства
-                                пользователя и решения бизнес-задач
-                                Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь
-                                совершит целевое действие</p>
+                            <p class="service__description">
+                                Это создание дизайн веб-сайтов, созданный для удобства
+                                пользователя и решения бизнес-задач Сайты должны быть
+                                понятными и удобными, ведь чем понятнее сайт, тем быстрее
+                                пользователь совершит целевое действие
+                            </p>
                         </div>
                     </li>
                     <li class="service">
-                        <img class="service__image" src="resources/site.png" alt="Разработка сайта под ключ">
+                        <img class="service__image" src="resources/site.png" alt="Разработка сайта под ключ" />
                         <div class="service__text-wrapper">
                             <p class="service__title">Верстка сайтов</p>
-                            <p class="service__description">Это процесс создания HTML-документов и применения к ним
-                                стилей на CSS. Фронтенд разработчик может помочь создать привлекательный и удобный
-                                интерфейс для вашего сайта</p>
+                            <p class="service__description">
+                                Это процесс создания HTML-документов и применения к ним стилей
+                                на CSS. Фронтенд разработчик может помочь создать
+                                привлекательный и удобный интерфейс для вашего сайта
+                            </p>
                         </div>
                     </li>
                     <li class="service">
-                        <img class="service__image" src="resources/interface.png" alt="Разработка сайта под ключ">
+                        <img class="service__image" src="resources/interface.png" alt="Разработка сайта под ключ" />
                         <div class="service__text-wrapper">
                             <p class="service__title">Разработка мобильного интерфейса</p>
-                            <p class="service__description">Это процесс создания интерактивных элементов на странице с
-                                помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный
-                                пользовательский интерфейс для вашего сайта или приложения.</p>
+                            <p class="service__description">
+                                Это процесс создания интерактивных элементов на странице с
+                                помощью JavaScript. Фронтенд разработчик может помочь создать
+                                динамический и удобный пользовательский интерфейс для вашего
+                                сайта или приложения.
+                            </p>
                         </div>
                     </li>
                 </ul>
@@ -177,7 +177,6 @@
                         </li>
                         <li>
                             <a class="connection__link" href="mailto:metelkov_2013@mail.ru" target="_blank">mail</a>
-
                         </li>
                         <li>
                             <a class="connection__link" href="https://github.com/alexandrmetelkovit"
@@ -187,7 +186,6 @@
                 </div>
             </div>
         </section>
-        </section>
     </main>
     <footer>
         <div class="footer__wrapper">
@@ -195,7 +193,6 @@
             <p>Все права защищены. 2023</p>
         </div>
     </footer>
-
 </body>
 
 </html>
