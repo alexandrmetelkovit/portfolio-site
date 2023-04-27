@@ -1,3 +1,5 @@
+@import url('header.css');
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,60 +12,10 @@ body {
   background-color: rgb(14, 13, 24);
 }
 
-header {
-  margin: auto;
-  padding-top: 33px;
-  min-width: 1400px;
-  background-image: url("../resources/photo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 60% 20%;
-  height: 765px;
-}
-
-.nav-section {
+.container {
+  width: 1150px;
   margin: 0 auto;
-  width: 1200px;
 }
-
-.logo-link {
-  width: 130px;
-  height: 39px;
-  left: 123px;
-  top: 36px;
-  font-size: 33px;
-  line-height: 30px;
-  text-decoration: none;
-  color: rgb(229, 25, 14);
-}
-
-.logo-link:hover {
-  color: #ffffff;
-  transition-duration: 1s;
-}
-
-.nav {
-  float: right;
-  vertical-align: top;
-}
-
-.nav-link {
-  margin-right: 50px;
-  font-size: 24px;
-  line-height: 23px;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.nav-link:hover {
-  color: rgb(255, 1, 1);
-  transition-duration: 1s;
-}
-
-.nav-link:nth-last-child(1) {
-  margin-right: 0;
-}
-
 .text-about-me {
   width: 1200px;
   margin: 0 auto;
