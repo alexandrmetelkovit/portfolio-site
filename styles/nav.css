@@ -1,24 +1,38 @@
-.nav-section {
+.header__nav-inner {
   display: flex;
   justify-content: space-between;
 }
 
-.nav {
+.header__nav-links {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 50px;
 }
 
 .logo-link {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 55px;
+  text-transform: underline;
   color: #ffffff;
   text-decoration: none;
+  transition: .5s;
+}
+
+.logo-link:hover {
+  color: rgb(136, 180, 125);
 }
 
 .nav-link {
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
-  letter-spacing: -0.03em;
   color: #ffffff;
   text-decoration: none;
+  transition: .5s;
+}
+
+.nav-link:hover {
+  color: rgb(136, 180, 125);
 }
