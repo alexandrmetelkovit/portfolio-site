@@ -1,0 +1,21 @@
+.connection__btn {
+  display: block;
+  width: 400px;
+  height: 70px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  cursor: pointer;
+  color: #fff;
+  background: #304591;
+  border: none;
+  border-radius: 30px;
+}
+
+.connection__btn:hover {
+  background: #fff;
+  color: #304591;
+  transition-duration: 1.5s;
+}

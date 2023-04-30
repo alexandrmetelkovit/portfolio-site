@@ -3,6 +3,12 @@
 @import url("nav.css");
 @import url("projects.css");
 @import url("competencies.css");
+@import url("services.css");
+@import url("connections.css");
+@import url("order.css");
+@import url("input.css");
+@import url("buttons.css");
+@import url("footer.css");
 
 html {
   scroll-behavior: smooth;
@@ -22,127 +28,4 @@ body {
 
 .main {
   background-color: rgb(21, 20, 20);
-}
-
-.services {
-  width: 1150px;
-  margin: 0 auto;
-}
-
-.services h2 {
-  margin-bottom: 74px;
-  width: 403px;
-  font-size: 35px;
-  line-height: 46px;
-  color: #ffffff;
-}
-
-.service {
-  margin-bottom: 74px;
-}
-
-.service:nth-last-child(1) {
-  margin-bottom: 150px;
-}
-
-.service__text-wrapper {
-  padding: 40px 62px 40px 40px;
-  background-color: #191c19;
-  border-radius: 30px;
-}
-
-.service__image {
-  display: block;
-  width: 1150px;
-  height: 200px;
-}
-
-.service__image:hover {
-  transform: scale(1.2);
-  transition-duration: 1s;
-}
-
-.service__title {
-  margin-bottom: 15px;
-  font-size: 55px;
-  line-height: 72px;
-  color: #1bff07;
-}
-
-.service__description {
-  font-size: 22px;
-  line-height: 29px;
-  color: #ffffff;
-}
-
-.connection {
-  width: 100%;
-  background-color: #191c19;
-  border-radius: 30px;
-}
-
-.connections {
-  margin: 150px 0;
-  height: 717px;
-  background-image: url("../resources/programmer.png");
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
-.connection__wrapper {
-  max-width: 1150px;
-  margin: auto;
-}
-
-.connection__wrapper h3 {
-  padding-top: 200px;
-  margin-bottom: 20px;
-  font-size: 35px;
-  line-height: 60px;
-  color: #ffffff;
-}
-
-.connection__list li {
-  margin-bottom: 15px;
-  font-size: 60px;
-  line-height: 60px;
-}
-
-.connection__list li:nth-last-child(1) {
-  margin-bottom: 0;
-}
-
-.connection__link {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.connection__link:hover {
-  transition-duration: 1s;
-  color: rgb(238, 18, 18);
-}
-
-footer {
-  margin: 0 auto;
-  width: 100%;
-  border-radius: 30px 30px 0 0;
-  background-color: #fff;
-}
-
-.footer__wrapper {
-  max-width: 1150px;
-  margin: auto;
-}
-
-.footer__wrapper p {
-  padding-top: 75px;
-  text-align: center;
-  font-size: 22px;
-  line-height: 30px;
-  color: #000000;
-}
-
-.footer__wrapper p:nth-last-child(1) {
-  padding-bottom: 50px;
-  opacity: 0.5;
 }

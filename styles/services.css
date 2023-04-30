@@ -1,0 +1,26 @@
+.services__inner {
+  padding-bottom: 150px;
+}
+
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+
+.service__text-wrapper {
+  padding: 40px 60px;
+  background-color: #191c19;
+  border-radius: 30px;
+}
+
+.service__image {
+  max-width: 1150px;
+  height: 200px;
+}
+
+.service__desc {
+  font-size: 22px;
+  line-height: 29px;
+  color: #ffffff;
+}

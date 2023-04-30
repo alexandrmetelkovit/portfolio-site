@@ -1,0 +1,29 @@
+footer {
+  width: 100%;
+  border-radius: 30px 30px 30px 30px;
+  background-color: #fff;
+  padding-top: 77px;
+}
+
+.footer__wrapper {
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 66px;
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+
+.footer__text-opacity {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  opacity: 0.5;
+}

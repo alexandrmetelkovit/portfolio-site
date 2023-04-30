@@ -1,6 +1,23 @@
-.subtitle-text {
-    margin-bottom: 40px;
-    font-size: 55px;
-    line-height: 72px;
-    color: #ffffff;
-  }
+.subtitle {
+  margin-bottom: 40px;
+  font-size: 55px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.subtitle_competencies {
+  margin-bottom: 140px;
+}
+
+.subtitle_services {
+  margin-bottom: 80px;
+}
+
+.service__title {
+  color: #1BFF07;
+}
+
+.subtitle_connections {
+  margin-bottom: 60px;
+  
+}
