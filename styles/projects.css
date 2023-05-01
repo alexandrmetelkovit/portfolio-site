@@ -7,69 +7,97 @@
   margin-bottom: 80px;
 }
 
-.project__item-metrika {
-  position: relative;
-  max-width: 1150px;
-  background: url("../resources/metrika.png");
-  border-radius: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+.project__item-metrika, 
 .project__item-nothing {
-  position: relative;
-  max-width: 1150px;
-  background: url("../resources/nothing.png");
-  border-radius: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.project__link {
   display: block;
+  width: 1150px;
   height: 550px;
+  position: relative;
+  background: linear-gradient(
+      175deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url("../resources/metrika.png") center left no-repeat;
+  background-size: cover;
   border-radius: 30px;
+  cursor: pointer;
 }
 
-.project__link:hover {
-  box-shadow: 0px 0px 25px rgb(16, 27, 89);
-  transition: 0.8s;
+.project__item-nothing {
+  background: url("../resources/nothing.png") center left no-repeat;
 }
 
 .project__head {
   position: absolute;
-  top: 400px;
-  left: 30px;
+  top: 420px;
+  left: 48px;
   font-size: 35px;
   line-height: 20px;
   letter-spacing: -0.03em;
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 
 .project__text {
   position: absolute;
-  top: 440px;
-  left: 30px;
+  top: 460px;
+  left: 48px;
   font-size: 25px;
   line-height: 30px;
   letter-spacing: -0.03em;
   color: #fff;
 }
 
-.projects__btn {
-  display: block;
-  width: 580px;
-  height: 150px;
-  line-height: 150px;
-  font-size: 30px;
-  background-color: #67c44b;
-  transition: 1s;
-  border-radius: 25px;
-  text-align: center;
-  text-decoration: none;
+.project__item-metrika:hover, 
+.project__item-nothing:hover {
+  box-shadow: 0px 0px 25px rgb(16, 27, 89);
+  transition: 0.8s;
 }
 
-.projects__btn:hover {
-  color: rgb(47, 35, 218);
-  background: #cfe1d4;
-  transform: 0.5s;
+@media (max-width: 1199px) {
+  .project__item-metrika, 
+  .project__item-nothing {
+    height: 445px;
+    object-fit: cover;
+  }
+
+  .project__head {
+    top: 320px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .project__text {
+    top: 360px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects__inner {
+    padding-bottom: 100px;
+  }
+
+  .project__item-metrika,
+  .project__item-nothing {
+    position: relative;
+  }
+
+  .project__head {
+    top: 300px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .project__text {
+    top: 340px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .project__link:hover {
+    box-shadow: 0px 0px 25px rgb(16, 27, 89);
+    transition: 0.8s;
+  }
 }

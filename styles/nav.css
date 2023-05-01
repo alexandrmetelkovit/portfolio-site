@@ -17,7 +17,7 @@
   text-transform: underline;
   color: #ffffff;
   text-decoration: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .logo-link:hover {
@@ -30,9 +30,36 @@
   line-height: 23px;
   color: #ffffff;
   text-decoration: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .nav-link:hover {
   color: rgb(22, 14, 173);
+}
+
+.burger-btn {
+  display: none;
+}
+
+.body_fixed {
+  overflow: hidden;
+}
+
+@media (max-width: 1199px) {
+  .header__nav-links {
+    display: none;
+  }
+
+  .logo-link {
+    font-size: 25px;
+    line-height: 45px;
+  }
+
+  .burger-btn {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  
 }

@@ -1,5 +1,6 @@
 .subtitle {
   margin-bottom: 40px;
+  font-weight: 400;
   font-size: 55px;
   line-height: 72px;
   color: #ffffff;
@@ -14,10 +15,51 @@
 }
 
 .service__title {
-  color: #1BFF07;
+  color: #1bff07;
 }
 
 .subtitle_connections {
   margin-bottom: 60px;
-  
+}
+
+@media (max-width: 1199px) {
+  .subtitle {
+    margin-bottom: 40px;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: -0.03em;
+  }
+
+  .subtitle_competencies {
+    margin-bottom: 105px;
+  }
+
+  .subtitle_services {
+    margin-bottom: 60px;
+  }
+
+  .subtitle_connections {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .subtitle {
+    margin-bottom: 35px;
+    font-size: 30px;
+    line-height: 39px;
+    color: #ffffff;
+  }
+
+  .subtitle_competencies {
+    margin-bottom: 100px;
+  }
+
+  .subtitle_services {
+    margin-bottom: 80px;
+  }
+
+  .subtitle_connections {
+    margin-bottom: 40px;
+  }
 }
