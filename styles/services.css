@@ -21,6 +21,7 @@
 .service__image {
   max-width: 1150px;
   height: 200px;
+  object-fit: cover;
 }
 
 .service__desc {
@@ -38,15 +39,15 @@
     row-gap: 32px;
   }
   .service__item {
-    width: 100%;
   }
 
   .service__text-wrapper {
+    width: 100%;
   }
 
-  .service__image {
-    max-width: 100%;
-  }
+  /* .service__image {
+width: 100%;
+  } */
 
   .service__desc {
     font-size: 22px;
