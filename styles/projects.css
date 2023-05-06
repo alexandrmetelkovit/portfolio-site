@@ -18,14 +18,14 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0.9) 100%
     ),
-    url("../resources/metrika.png") center left no-repeat;
+    url("../resources/projects/metrika.png") center left no-repeat;
   background-size: cover;
   border-radius: 30px;
   cursor: pointer;
 }
 
 .project__item-nothing {
-  background: url("../resources/nothing.png") center left no-repeat;
+  background: url("../resources/projects/nothing.png") center left no-repeat;
 }
 
 .project__head {
@@ -55,8 +55,16 @@
 }
 
 @media (max-width: 1199px) {
-  .project__item-metrika, 
+  .project__item-metrika {
+    background:
+    url("../resources/projects/tablet_metrika.png") center left no-repeat;
+    height: 445px;
+    object-fit: cover;
+  }
+
   .project__item-nothing {
+    background:
+    url("../resources/projects/tablet_nothing.png") center left no-repeat;
     height: 445px;
     object-fit: cover;
   }
@@ -79,9 +87,17 @@
     padding-bottom: 100px;
   }
 
-  .project__item-metrika,
+
+  .project__item-metrika {
+    position: relative;
+    background:
+    url("../resources/projects/mobile_metrika.png") center left no-repeat;
+  }
+
   .project__item-nothing {
     position: relative;
+    background:
+    url("../resources/projects/mobile_nothing.png") center left no-repeat;
   }
 
   .project__head {
