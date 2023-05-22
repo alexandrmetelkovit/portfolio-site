@@ -1,12 +1,13 @@
 .connection {
   background-color: #191c19;
   border-radius: 30px 30px 30px 30px;
+
+}
+
+.connections__inner {
   height: 717px;
   background-image: url("../resources/programmer.png");
   background-repeat: no-repeat;
   background-position: right;
-}
-
-.connections__inner {
   padding: 100px 0;
 }

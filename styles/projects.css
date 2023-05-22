@@ -9,10 +9,8 @@
 
 .project__item-metrika, 
 .project__item-nothing {
-  display: block;
-  width: 1150px;
-  height: 550px;
   position: relative;
+  height: 550px;
   background: linear-gradient(
       175deg,
       rgba(0, 0, 0, 0) 0%,
@@ -56,15 +54,13 @@
 
 @media (max-width: 1199px) {
   .project__item-metrika {
-    background:
-    url("../resources/projects/tablet_metrika.png") center left no-repeat;
+
     height: 445px;
     object-fit: cover;
   }
 
   .project__item-nothing {
-    background:
-    url("../resources/projects/tablet_nothing.png") center left no-repeat;
+
     height: 445px;
     object-fit: cover;
   }
@@ -88,17 +84,7 @@
   }
 
 
-  .project__item-metrika {
-    position: relative;
-    background:
-    url("../resources/projects/mobile_metrika.png") center left no-repeat;
-  }
 
-  .project__item-nothing {
-    position: relative;
-    background:
-    url("../resources/projects/mobile_nothing.png") center left no-repeat;
-  }
 
   .project__head {
     top: 300px;

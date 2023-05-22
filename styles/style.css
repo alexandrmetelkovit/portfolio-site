@@ -15,14 +15,14 @@ html {
 }
 
 body {
-  font-family: "Alata", sans-serif;
-  min-width: 1400px;
   margin: 0 auto;
+  font-family: "Alata", sans-serif;
+  width: 100%;
 }
 
 .container {
-  width: 1150px;
   margin: 0 auto;
+  width: 1150px;
 }
 
 .main {
@@ -32,14 +32,12 @@ body {
 @media (max-width: 1199px) {
   .container {
     width: 100%;
-    padding-left: 17px;
-    padding-right: 17px;
+    padding: 0 17px;
   }
 }
 
 @media (max-width: 767px) {
   .container {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 0 12px;
   }
 }
