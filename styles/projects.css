@@ -9,8 +9,8 @@
 
 .project__item-metrika, 
 .project__item-nothing {
-  position: relative;
   height: 550px;
+  position: relative;
   background: linear-gradient(
       175deg,
       rgba(0, 0, 0, 0) 0%,
@@ -54,13 +54,15 @@
 
 @media (max-width: 1199px) {
   .project__item-metrika {
-
+    background:
+    url("../resources/projects/tablet_metrika.png") center left no-repeat;
     height: 445px;
     object-fit: cover;
   }
 
   .project__item-nothing {
-
+    background:
+    url("../resources/projects/tablet_nothing.png") center left no-repeat;
     height: 445px;
     object-fit: cover;
   }
@@ -82,7 +84,6 @@
   .projects__inner {
     padding-bottom: 100px;
   }
-
 
 
 

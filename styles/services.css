@@ -9,7 +9,7 @@
 }
 
 .service__item {
-  max-width: 1150px;
+width: 1150px;
 }
 
 .service__text-wrapper {
@@ -22,6 +22,7 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
+  border-radius: 30px;
 }
 
 .service__desc {
