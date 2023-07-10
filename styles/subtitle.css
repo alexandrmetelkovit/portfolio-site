@@ -1,9 +1,13 @@
 .subtitle {
-  margin-bottom: 40px;
   font-weight: 400;
   font-size: 55px;
   line-height: 72px;
   color: #ffffff;
+  letter-spacing: -0.03em;
+}
+
+.subtitle_projects {
+  margin-bottom: 40px;
 }
 
 .subtitle_competencies {
@@ -27,8 +31,10 @@
     text-align: center;
     font-size: 45px;
     line-height: 58px;
-    letter-spacing: -0.03em;
-    margin-bottom: 40px;
+  }
+
+  .subtitle_projects {
+    margin-bottom: 50px;
   }
 
   .subtitle_competencies {
@@ -48,8 +54,11 @@
   .subtitle {
     font-size: 30px;
     line-height: 39px;
-    color: #ffffff;
     margin-bottom: 30px;
+  }
+
+  .subtitle_projects {
+    margin-bottom: 35px;
   }
 
   .subtitle_competencies {
@@ -57,7 +66,7 @@
   }
 
   .subtitle_services {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 
   .subtitle_connections {

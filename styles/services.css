@@ -9,10 +9,15 @@
 }
 
 .service__item {
-width: 1150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .service__text-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 70px;
   padding: 40px 60px;
   background-color: #191c19;
   border-radius: 30px;
@@ -67,7 +72,8 @@ width: 100%;
   }
 
   .service__text-wrapper {
-
+    flex-direction: column;
+    gap: 15px;
   }
 
   .service__image {
