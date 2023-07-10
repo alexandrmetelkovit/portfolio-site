@@ -30,14 +30,14 @@
   position: absolute;
   content: "";
   bottom: 60px;
-  background: url("../resources/html.png");
+  background: url("../resources/html.svg");
   background-repeat: no-repeat;
   width: 45px;
   height: 44px;
   background-size: contain;
 }
 .competencies__title-js::before {
-  background: url("../resources/js.png");
+  background: url("../resources/js.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -46,14 +46,14 @@
   position: absolute;
   content: "";
   bottom: 110px;
-  background: url("../resources/framework.png");
+  background: url("../resources/framework.svg");
   background-repeat: no-repeat;
   width: 45px;
   height: 44px;
   background-size: contain;
 }
 .competencies__title-mobile::before {
-  background: url("../resources/mobile.png ");
+  background: url("../resources/mobile.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -76,7 +76,7 @@
   }
 
   .competencies__item {
-    width: 435px;
+    max-width: 435px;
   }
 
   .competencies__title-html,
