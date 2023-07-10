@@ -1,4 +1,5 @@
 .projects__btn-view {
+  margin-top: 80px;
   font-family: inherit;
   display: block;
   width: 580px;
@@ -42,7 +43,7 @@
 
 @media (max-width: 1199px) {
   .projects__btn-view {
-    max-width: 460%;
+    width: 100%;
     line-height: 125px;
     font-size: 25px;
   }
@@ -62,9 +63,10 @@
 
 @media (max-width: 767px) {
   .projects__btn-view {
-    max-width: 350px;
+    margin-top: 60px;
     line-height: 80px;
-    font-size: 13px;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   .connection__btn {

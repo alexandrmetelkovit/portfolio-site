@@ -24,10 +24,11 @@
 
 @media (max-width: 1199px) {
   .subtitle {
-    margin-bottom: 40px;
+    text-align: center;
     font-size: 45px;
     line-height: 58px;
     letter-spacing: -0.03em;
+    margin-bottom: 40px;
   }
 
   .subtitle_competencies {
@@ -45,10 +46,10 @@
 
 @media (max-width: 767px) {
   .subtitle {
-    margin-bottom: 35px;
     font-size: 30px;
     line-height: 39px;
     color: #ffffff;
+    margin-bottom: 30px;
   }
 
   .subtitle_competencies {

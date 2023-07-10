@@ -1,10 +1,11 @@
 .projects__inner {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding: 150px 0;
 }
 
 .projects__list {
-  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .project__item-metrika, 
@@ -46,23 +47,19 @@
   color: #fff;
 }
 
-.project__item-metrika:hover, 
-.project__item-nothing:hover {
-  box-shadow: 0px 0px 25px rgb(16, 27, 89);
-  transition: 0.8s;
-}
-
 @media (max-width: 1199px) {
+  .projects__inner {
+    padding: 120px 0;
+  }
+
   .project__item-metrika {
-    background:
-    url("../resources/projects/tablet_metrika.png") center left no-repeat;
+    width: 100%;
     height: 445px;
     object-fit: cover;
   }
 
   .project__item-nothing {
-    background:
-    url("../resources/projects/tablet_nothing.png") center left no-repeat;
+    width: 100%;
     height: 445px;
     object-fit: cover;
   }
@@ -82,10 +79,8 @@
 
 @media (max-width: 767px) {
   .projects__inner {
-    padding-bottom: 100px;
+    padding: 100px 0;
   }
-
-
 
   .project__head {
     top: 300px;
