@@ -19,6 +19,7 @@ body {
   font-family: "Alata", sans-serif;
   width: 100%;
   background-color: rgb(21, 20, 20);
+  letter-spacing: -0.03em;
 }
 
 .container {

@@ -44,16 +44,10 @@
   .services__list {
     row-gap: 32px;
   }
-  .service__item {
-  }
 
   .service__text-wrapper {
     width: 100%;
   }
-
-  /* .service__image {
-width: 100%;
-  } */
 
   .service__desc {
     font-size: 22px;

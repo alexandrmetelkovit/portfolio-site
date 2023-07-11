@@ -9,6 +9,7 @@
   transition: 1s;
   border-radius: 25px;
   text-align: center;
+  letter-spacing: -0.03em;
   text-decoration: none;
   cursor: pointer;
 }
