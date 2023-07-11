@@ -3,3 +3,15 @@
     flex-direction: column;
     gap: 26px;
 }
+
+@media (max-width: 1199px) {
+    .order__form {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .order__form {
+        align-items: center;
+    }
+}

@@ -18,6 +18,10 @@
   margin-bottom: 80px;
 }
 
+.subtitle_connections {
+  margin-bottom: 40px;
+}
+
 .service__title {
   color: #1bff07;
 }
@@ -46,7 +50,7 @@
   }
 
   .subtitle_connections {
-    margin-bottom: 40px;
+    text-align: left;
   }
 }
 
@@ -70,6 +74,7 @@
   }
 
   .subtitle_connections {
+    text-align: center;
     margin-bottom: 40px;
   }
 }

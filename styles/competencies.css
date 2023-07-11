@@ -70,7 +70,9 @@
   .competencies__inner {
     padding-bottom: 120px;
   }
+  
   .competencies__list {
+    align-items: center;
     row-gap: 80px;
     column-gap: 37px;
   }
@@ -88,14 +90,14 @@
     margin-bottom: 13px;
   }
 
-  .competencies__title-html::before, 
+  .competencies__title-html::before,
   .competencies__title-js::before {
     bottom: 56px;
     width: 36px;
     height: 36px;
   }
 
-  .competencies__title-framework::before, 
+  .competencies__title-framework::before,
   .competencies__title-mobile::before {
     bottom: 98px;
     width: 36px;
