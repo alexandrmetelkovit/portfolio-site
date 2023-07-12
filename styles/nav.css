@@ -20,10 +20,6 @@
   transition: 0.5s;
 }
 
-.logo-link:hover {
-  color: rgb(22, 14, 173);
-}
-
 .nav-link {
   font-weight: 400;
   font-size: 18px;
@@ -61,5 +57,4 @@
 }
 
 @media (max-width: 767px) {
-  
 }
