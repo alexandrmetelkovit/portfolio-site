@@ -40,10 +40,6 @@
     transform: translateX(0);
   }
   
-  .burger-logo {
-    width: 156px;
-  }
-  
   .burger__nav-links {
     display: flex;
     flex-direction: column;
@@ -86,15 +82,11 @@
   }
 
   @media (max-width: 1199px) {
-    .nav {
-      display: none;
-    }
-  
     .burger-btn {
       display: block;
       position: relative;
       width: 50px;
-      height: 40px;
+      height: 50px;
       z-index: 4;
       cursor: pointer;
     }
@@ -117,18 +109,17 @@
       width: 31px;
       height: 2px;
       background-color: #fbf7f7;
-
     }
   
     .burger-btn_open::before {
-      width: 50px;
+      width: 44px;
       transition: 0.5s;
       transform: translateX(-2px) translateY(19px) rotate(43deg);
       background-color: #131212;
     }
   
     .burger-btn_open::after {
-      width: 50px;
+      width: 44px;
       transition: 0.5s;
       transform: translateX(-3px) translateY(13px) rotate(137deg);
       background-color: #131212;
