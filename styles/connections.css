@@ -1,24 +1,22 @@
 .connection {
   background-color: #191c19;
   border-radius: 30px 30px 30px 30px;
+}
+
+.connections__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 717px;
+  padding: 100px 0;
   background-image: url("../resources/programmer.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
 }
 
-.connections__inner {
-  display: flex;
-  flex-direction: column;
-  gap: 100px;
-  height: 717px;
-  padding: 100px 0;
-}
-
 @media (max-width: 1199px) {
   .connections__inner {
-    display: flex;
-    flex-direction: column;
     gap: 0;
     height: 484px;
     padding: 25px 0;
@@ -26,7 +24,7 @@
 }
 
 @media (max-width: 767px) {
-  .connection {
+  .connections__inner {
   background-image: none;
   }
 }
